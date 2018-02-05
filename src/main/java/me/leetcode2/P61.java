@@ -1,18 +1,12 @@
 package me.leetcode2;
 
+import me.ListNode;
+
 /**
  * @author paranoidq
  * @since 1.0.0
  */
 public class P61 {
-
-    private static class ListNode {
-        int val;
-        ListNode next;
-        public ListNode(int val) {
-            this.val = val;
-        }
-    }
 
     public static ListNode rotateRight(ListNode head, int k) {
         if (head == null || head.next == null) {

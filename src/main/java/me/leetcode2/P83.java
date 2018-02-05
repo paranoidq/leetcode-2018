@@ -1,18 +1,12 @@
 package me.leetcode2;
 
+import me.ListNode;
+
 /**
  * @author paranoidq
  * @since 1.0.0
  */
 public class P83 {
-
-    public static class ListNode {
-        int val;
-        ListNode next;
-        public ListNode(int val) {
-            this.val = val;
-        }
-    }
 
     public ListNode deleteDuplicates(ListNode head) {
         if (head == null || head.next == null) {

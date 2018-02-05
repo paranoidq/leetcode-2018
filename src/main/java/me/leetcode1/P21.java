@@ -1,15 +1,12 @@
 package me.leetcode1;
 
+import me.ListNode;
+
 /**
  * @author paranoidq
  * @since 1.0.0
  */
 public class P21 {
-    public static class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) { val = x; }
-    }
 
     public static ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode dummy = new ListNode(-1);

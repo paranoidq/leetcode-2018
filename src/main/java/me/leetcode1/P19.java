@@ -1,16 +1,12 @@
 package me.leetcode1;
 
+import me.ListNode;
+
 /**
  * @author paranoidq
  * @since 1.0.0
  */
 public class P19 {
-
-    public static class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) { val = x; }
-    }
 
     // 题设n是合法的
     public static ListNode removeNthFromEnd(ListNode head, int n) {

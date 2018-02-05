@@ -1,18 +1,12 @@
 package me.leetcode1;
 
+import me.ListNode;
+
 /**
  * @author paranoidq
  * @since 1.0.0
  */
 public class P24 {
-
-    public static class ListNode {
-        int val;
-        ListNode next;
-        public ListNode(int val) {
-            this.val = val;
-        }
-    }
 
     public static ListNode swapPairs(ListNode head) {
         if (head == null || head.next == null) {
